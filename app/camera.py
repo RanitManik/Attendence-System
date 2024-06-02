@@ -17,12 +17,12 @@ class VideoCamera(object):
         self.known_face_encodings.append(ranit_encoding)
         self.known_face_names.append("ranit")
 
-        salman_khan_image = face_recognition.load_image_file("assets/salman_khan.jpg")
+        salman_khan_image = face_recognition.load_image_file("assets/ranit_manik.jpg")
         salman_khan_encoding = face_recognition.face_encodings(salman_khan_image)[0]
         self.known_face_encodings.append(salman_khan_encoding)
         self.known_face_names.append("salman")
 
-        king_image = face_recognition.load_image_file("assets/shah_rukh_khan.jpg")
+        king_image = face_recognition.load_image_file("assets/ranit_manik.jpg")
         king_encoding = face_recognition.face_encodings(king_image)[0]
         self.known_face_encodings.append(king_encoding)
         self.known_face_names.append("king")

@@ -3,6 +3,15 @@
 Welcome to the Facial Recognition Attendance System v1.0 created by Ranit Manik. This project uses Python, Flask,
 OpenCV, and face_recognition to create an attendance system that recognizes faces and records attendance.
 
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
 
 - Recognizes faces using `face_recognition`.
@@ -19,8 +28,6 @@ OpenCV, and face_recognition to create an attendance system that recognizes face
 - gunicorn
 
 ## Installation
-
-### Local Setup
 
 1. **Clone the repository:**
 
@@ -52,11 +59,6 @@ OpenCV, and face_recognition to create an attendance system that recognizes face
 
 Once the application is running, you can access the video feed at `http://localhost:5000/video_feed`. The application
 will detect faces and record attendance in a CSV file named with the current date.
-
-## Troubleshooting
-
-- Ensure all dependencies are installed.
-- Check Heroku logs for any deployment issues using `heroku logs --tail`.
 
 ## Contributing
 

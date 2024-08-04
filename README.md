@@ -1,8 +1,5 @@
 # Facial Recognition Attendance System
 
-Welcome to the Facial Recognition Attendance System v1.0 created by Ranit Manik. This project uses Python, Flask,
-OpenCV, and face_recognition to create an attendance system that recognizes faces and records attendance.
-
 <div>
     
   ![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/Attendence-System)
@@ -10,8 +7,12 @@ OpenCV, and face_recognition to create an attendance system that recognizes face
   ![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/Attendence-System)
   ![GitHub License](https://img.shields.io/github/license/RanitManik/Attendence-System)
   ![wakatime](https://wakatime.com/badge/github/RanitManik/Attendence-System.svg)
-
+  
 </div>
+
+Welcome to the Facial Recognition Attendance System v1.0 created by Ranit Manik. This project uses Python, Flask,
+OpenCV, and face_recognition to create an attendance system that recognizes faces and records attendance.
+
 
 ## Table of Contents
 
